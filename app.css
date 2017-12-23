@@ -2,6 +2,9 @@ html {
     box-sizing: border-box;
     height: 100%;
 }
+.destination:hover h2 {
+    transform: rotate(0deg);
+}
 
 *,
 *::before,
@@ -41,6 +44,7 @@ body {
 }
 
 h2 {
+    transition: transform 0.5s;
     margin: 0;
     transform: rotate(-45deg);
     text-shadow: 0 0 5px #01579b;
